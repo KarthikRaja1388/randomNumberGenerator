@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+.number-display {
+  font-size: 4rem;
+}
+.btn-generate {
+  text-decoration: none;
+  background-color: #823cf7;
+  padding: 1rem 2rem;
+  color: #fff;
+}
